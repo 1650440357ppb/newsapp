@@ -5,6 +5,22 @@
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel="stylesheet" href="css/list.css" />
+	<script type="text/javascript">
+    		function resize(originSize,type){
+		var type=type||"x";
+		var widths=document.documentElement.clientWidth;
+		var heights=document.documentElement.clientHeight;
+		if(type=="x"){
+			var scale=widths/originSize*100;
+		}else if(type=="y"){
+			var scale=heights/originSize*100;
+		}
+		document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+	}
+	window.onload=function(){
+		resize(1500);
+	}
+    </script>
 </head>
 <body>
 	<header>

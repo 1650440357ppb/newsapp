@@ -24,8 +24,8 @@ img {
 }
 .m_nav1 {
     width: 100%;
-    height: 3.2rem;
-    line-height: 3.2rem;
+    height: 2.2rem;
+    line-height: 2.36rem;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -36,15 +36,15 @@ img {
     height: 2.2rem;
     width: 2.2rem;
     position: absolute;
-    left: .9rem;
-    top: .6rem;
+    left: .4rem;
+    top: .2rem;
     display: block;
     background: url("../img/icon.png") no-repeat;
     background-size: 10.175rem 11.05rem;
     background-position: -5.15rem -2rem;
 }
 .m_nav_til {
-    height: 3.2rem;
+    height: 2.2rem;
     margin-left: 1.5rem;
     box-sizing: border-box;
     overflow: hidden;
@@ -63,14 +63,14 @@ img {
 }
 #top_menu .top_menu_list .m_btn {
     color: #ffe5e5;
-    font-size: 1rem;
+    font-size: 0.8rem;
     display: inline-block;
 /*    -webkit-user-select: none;*/
     width: 1.8rem;
-    height: 3.2rem;
+    height: 2.2rem;
     text-align: center;
-    padding-left: 1.32rem;
-    padding-right: .32rem;
+    padding-left: 0.32rem;
+    /*padding-right: 2.68rem;*/
     -webkit-tap-highlight-color: transparent;
     /*-webkit-touch-callout: none;
     -webkit-user-select: none;*/
@@ -79,7 +79,7 @@ img {
     border-bottom: 1px solid #e8e8e8;
 }
 .mt34 {
-    margin-top: 3.2rem!important;
+    margin-top: 2.2rem!important;
 }
 .bfff {
     background: #FFF;
@@ -92,20 +92,27 @@ img {
     position: relative;
     padding: .375rem 0;
 }
-.m_list_img {
+/*.m_list_img {
     margin: 0rem .5rem;
     width: 6rem;
     height: 4.7rem;
+    float: left;
+    text-align: center;
+}*/
+.m_list_img {
+    margin: 0 .4rem;
+    width: 4rem;
+    height: 3rem;
     float: left;
     text-align: center;
 }
 .m_list_img img {
     height: auto;
     width: 100%;
-    margin: 0rem auto;
+    margin: 0 auto;
 }
 .m_list_con_tit, .m_list_con_titan {
-    width: 15.79rem;
+    width: 9.79rem;
     float: left;
     margin-right: .4rem;
 }
@@ -114,22 +121,22 @@ img {
     height: 1rem;
 }
 .m_list_con_tit p, .m_list_con_titan p {
-    font-size: 1.05rem;
+    font-size: 0.68rem;
     line-height: 1rem;
     color: #121212;
-    /*height: 2rem;*/
+    /* height: 2rem; */
     overflow: hidden;
-    margin:0.2rem;
+    margin: 0;
 }
 p, dd, pre {
     word-break: break-all;
 }
 
 .m_list_con_tit1, .m_list_con_titan .m_list_con_tit1 {
-    height: 3rem;
-    line-height: 1.5rem;
+    height: 2rem;
+    line-height: 1rem;
     color: #a6a6a6;
-    font-size: .9rem;
+    font-size: .6rem;
     position: relative;
 }
 

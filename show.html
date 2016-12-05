@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>show</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <link rel="stylesheet" href="css/show.css" />
+	    <script type="text/javascript">
+    		function resize(originSize,type){
+		var type=type||"x";
+		var widths=document.documentElement.clientWidth;
+		var heights=document.documentElement.clientHeight;
+		if(type=="x"){
+			var scale=widths/originSize*100;
+		}else if(type=="y"){
+			var scale=heights/originSize*100;
+		}
+		document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+	}
+	window.onload=function(){
+		resize(1500);
+	}
+    </script>
+	</head>
+	<body>
+		<header class="m_template" id="m_template">
+		<div class="m_nav" id="m-nav">
+			<div>
+				<div>
+					<a href="" class="sub1">
+						<img src="img/icon_logo.png" alt="" />
+					</a>
+					<span class="mianbaoxie">
+						<a href="">咨询 &nbsp;></a>
+						<!--<em>&gt;</em>-->
+					    <a href="">新闻</a>
+					</span>
+					<div class="sub2 r">
+						<a href="" class="login" id="login"></a>
+						<!--<a href="javascript:void(0);" class="r_nav_hover"></a>-->
+						
+					</div>
+				</div>
+				<div class="fixed_tit"></div>
+				<div class="fixed_tit"></div>
+				<div class="fixed_tit"></div>
+				<div class="fixed_tit"></div>
+			</div>
+		</div>
+	</header>
+	<section class="Main_index bgHead_fixed_mt">
+		<h2 class="h2Tit">华为四曲面神机曝光 新机汇总</h2>
+		<div class="text">
+			<span class="timeLeft">
+				<label>2016-12-04 05:00:00</label>
+				<label class="text_names">许华</label>
+				<i>9</i>
+			</span>
+			<div class="TxtPic">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不知不觉已逼近年底，可是国产<a href="http://m.cnmo.com/" class="key_word">手机</a>厂商们仍不停歇，魅蓝X、<a href="http://m.cnmo.com/product/mobile/pro_sub_manu/sub_57_manu_1434_1.shtml" class="key_word">魅族</a>PRO 6 Plus，<a href="http://m.cnmo.com/product/mobile/pro_sub_manu/sub_57_manu_32880_1.shtml" class="key_word">一加</a>3T国行、<a href="http://m.cnmo.com/product/mobile/pro_sub_manu/sub_57_manu_1606_1.shtml" class="key_word">酷派</a>cool 1c...一款款新机也是铺面而来，让我们振奋，也让我们欣喜。不仅如此，<a href="http://m.cnmo.com/product/mobile/pro_sub_manu/sub_57_manu_613_1.shtml" class="key_word">华为</a>也密谋大招，不仅要推石墨烯电池，同时四曲面屏神机也已在路上。本周<a href="http://m.cnmo.com/product/mobile/pro_sub_manu/sub_57_manu_297_1.shtml" class="key_word">诺基亚</a>终于宣布回归了，不过首款智能手机要到明年上半年才跟我们见面，这周还有哪些新机信息值得我们关注呢，请看下面的这篇新机汇总：</p>
+			    <p><strong>终极旗舰PRO 6 Plus发布</strong></p>
+			    <p>　　“Make Helio Great Again”、“Make 6 Great Again”，本以为今天的发布会就是一场不痛不痒的魅蓝新品暨联发科新品的亮相会，没想到的是，魅族居然祭出了终极旗舰PRO 6 Plus，魅友们YY许久的Exynos 8890终于来了。</p>
+			    <p style="text-align: center;">
+			    	<a href="">
+			    		<img src="img/1388762.jpg" alt="" />
+			    	</a>
+			    </p>
+			</div>
+		</div>
+	</section>
+	</body>
+</html>
